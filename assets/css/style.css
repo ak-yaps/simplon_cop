@@ -1,0 +1,79 @@
+body {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.main_menu {
+  z-index: 1000;
+  position: absolute;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: column wrap;
+  padding-bottom: 1em;
+}
+
+li {
+  list-style: none;
+  flex: 1 auto;
+  text-transform: uppercase;
+  padding: 3.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 1.4em;
+  border-bottom: 3px solid #222222;
+}
+
+a:hover {
+  border-bottom: 3px solid #ed1450;
+}
+
+#canvas-image {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: 50%;
+  filter: brightness(70%);
+}
+
+#canvas-basic {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.accueil_background {
+  background-image: url("../img/alesia-kazantceva-283288.jpg");
+}
+
+/*.aboutus_background {
+  background-image: url("../img/igor-son-285029.jpg");
+}*/
+
+.main_logo {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+footer {
+  position: absolute;
+  background-color: #222222;
+  top: 100%;
+  width: 100%;
+}
